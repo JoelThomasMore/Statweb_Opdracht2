@@ -12,24 +12,33 @@
     z-index: 10;
     width: 200px !important;
 }
-.btn-outline-primary{
+.btn-outline-primary,.btn-primary{
     background-color: yellow;
     color: black;
     border-color: black;
     border-width: 4px;
     width: 150px;
 }
+.btn-outline-secondary{
+    color: black;
+    border-color: black;
+    border-width: 4px;
+}
+div.card a.btn-outline-secondary{
+    background-color: yellow;
+}
 
-
-.topbar{
+.topbar,.fixed-top{
     height: 100px;
     background-color: brown;
+    
 }
 .corners{
     height: 100px;
     background-color: yellow;
     width: 200px !important;
     float: left;
+    z-index: 100;
 }
 .spacer{
     width: 250px !important;
@@ -73,7 +82,8 @@
 li.nav-item{
     margin: 5px;
 }
-button.btn:hover{
+
+button.btn:hover,a.btn:hover,div.card a.btn-outline-secondary:hover{
     background-color: black;
     border-color: black;
 }
@@ -84,4 +94,13 @@ nav.navbar div.container-fluid,nav.navbar{
 
 .blockerfooter{
     height: 20%;
+}
+i,a:visited{
+ color: black;
+}
+.jumbo{
+    margin-left: 20px;
+}
+.card{
+    background-color: brown;
 }

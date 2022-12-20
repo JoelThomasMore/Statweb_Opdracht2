@@ -42,26 +42,28 @@
     display: flex;
 }
 
-.card{
-    background-color: brown;
-    min-height: 60vh;
-    /* height: fit-content; */
-}
 .backgroundimg{
-    backdrop-filter:  blur(10px) !important;
-    
-}
-div.card div.row{
-    height: 100%;
+    backdrop-filter:  blur(2px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.container-md{
+.container-fluid-md{
     background-color: brown;
     border-radius: 5px;
     margin: 0px;
     padding: 0px;
     min-height: 60vh;
 }
+.col-md-8{
+    background-color: brown;
+}
+
 
 .menufix{
     position: fixed;
@@ -70,4 +72,16 @@ div.card div.row{
 }
 li.nav-item{
     margin: 5px;
+}
+button.btn:hover{
+    background-color: black;
+    border-color: black;
+}
+
+nav.navbar div.container-fluid,nav.navbar{
+    background-color: brown !important;
+}
+
+.blockerfooter{
+    height: 20%;
 }

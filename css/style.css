@@ -1,17 +1,73 @@
-
-.fixed-bottom{
-    text-align: center;
-    background-color: blueviolet;
-    z-index: 10;
-    margin-left: 10vw;
+.html,.body{
+    height: fit-content;
+    overflow-y: auto;
 }
-.offcanvas-sm{
+.fixed-bottom{
     background-color: brown;
     z-index: 100;
-    max-width: 11vw;
+    height: 50px !important;
 }
-@media (max-width: 576px) { 
-    .fixed-bottom > .fixed-top{
-        background-color: aqua;
-    }
- }
+.offcanvas{
+    background-color: brown;
+    z-index: 10;
+    width: 200px !important;
+}
+.btn-outline-primary{
+    background-color: yellow;
+    color: black;
+    border-color: black;
+    border-width: 4px;
+    width: 150px;
+}
+
+
+.topbar{
+    height: 100px;
+    background-color: brown;
+}
+.corners{
+    height: 100px;
+    background-color: yellow;
+    width: 200px !important;
+    float: left;
+}
+.spacer{
+    width: 250px !important;
+    background-color: yellow;
+    float: left;
+    height: auto;
+}
+.mainscreen{
+    height: 100%;
+    display: flex;
+}
+
+.card{
+    background-color: brown;
+    min-height: 60vh;
+    /* height: fit-content; */
+}
+.backgroundimg{
+    backdrop-filter:  blur(10px) !important;
+    
+}
+div.card div.row{
+    height: 100%;
+}
+
+.container-md{
+    background-color: brown;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;
+    min-height: 60vh;
+}
+
+.menufix{
+    position: fixed;
+    top: 100px;
+    left:20px
+}
+li.nav-item{
+    margin: 5px;
+}

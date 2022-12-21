@@ -119,3 +119,6 @@ i,a:visited,a,a:hover{
 .googlemaps {
     box-sizing: content-box;
   }
+  video{
+    width: 100%;
+  }

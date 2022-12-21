@@ -33,6 +33,12 @@ div.card a.btn-outline-secondary{
     background-color: brown;
     
 }
+.topbar2,nav.fixed-top{
+    height: 60px;
+}
+.bottom-bar{
+    height: 100px;
+}
 .corners{
     height: 100px;
     background-color: yellow;
@@ -42,6 +48,7 @@ div.card a.btn-outline-secondary{
 }
 .spacer{
     width: 250px !important;
+    min-width: 200px;
     background-color: yellow;
     float: left;
     height: auto;
@@ -72,7 +79,9 @@ div.card a.btn-outline-secondary{
 .col-md-8{
     background-color: brown;
 }
-
+/* .carousel-caption{
+    color: black;
+} */
 
 .menufix{
     position: fixed;

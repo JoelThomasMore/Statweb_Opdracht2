@@ -30,20 +30,24 @@
 
 <body>
     <!-- Top groot scherm -->
+    <!-- blokker groot scherm -->
     <div class="topbar d-none d-md-block">
-
     </div>
+    <div class="topbar2 d-md-none">
+    </div>
+    <!-- bovenste bar in groot scherm -->
+    <footer class="fixed-top d-none d-md-block">
+        <div class="corners d-none d-md-block"> </div>
+    </footer>
     <!-- menu groot scherm -->
     <nav class="offcanvas  offcanvas-start show d-none d-md-block" data-bs-scroll="true" data-bs-backdrop="false"
         tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div class="corners">
 
-        </div>
         <div class="menufix">
             <div class="text-center">
                 <img src="/img/favicon.ico" alt="Icoon">
                 <h3>Joël Dierckx</h3>
-                <h3>Menu</h3>
+                <h3>-Menu-</h3>
             </div>
             <ul class="nav flex-column align-content-center">
                 <li class="nav-item">
@@ -70,7 +74,7 @@
 
     </nav>
     <!-- menu klein scherm -->
-    <nav class="navbar navbar-expand-lg bg-light d-md-none">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light d-md-none">
         <div class="container-fluid">
             <div>
                 <div class="container text-center ">
@@ -112,28 +116,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/navigatie.html">Navigatie</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li> -->
-                    <!-- </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
             </div>
         </div>
     </nav>
@@ -144,52 +126,179 @@
             <div class="spacer d-none d-md-block"></div>
             <div class="container text-start">
                 <div class="row">
-                    <div class="col text-start">
+                    <div class="col text-center">
                         <!-- tittle-->
-                        <h1>Startpagina</h1>
+                        <h1>Contact</h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-11">
-                        <!-- contenttab1 -->
-                        <div class="container-fluid-md d-flex h-100 flex-column"
-                            style="background-image: url(/img/HistorischDocument.jpg);">
-                            <div class="row backgroundimg flex-fill d-flex justify-content-start">
-                                <div class="col-md-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <img src="/img/foto.jpg" class="img-fluid rounded-start" alt="Responsive image">
+                    <div class="row mb-5">
+                        <div class="col-md-11">
+                            <!-- contenttab1 -->
+                            <div class="container-fluid-md d-flex h-100 flex-column "
+                                style="background-image: url(/img/extra_kunnen_achtergrond.jpg);">
+                                <div class="row backgroundimg flex-fill d-flex justify-content-start">
+                                    <div class="col-md-4">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img src="img/foto.jpg" class="img-fluid rounded-start"
+                                                alt="Responsive image">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div>
-                                        <h2 class="card-title">Joël Dierckx</h2>
-                                        <ul class="card-text">
-                                            <li>28 jaar</li>
-                                            <li><a href="CV.html#Bachelor">Bachelor in de Geschiedenis</a></li>
-                                            <li><a href="Ervaring.html#office">Kennis van Windows Office</a>: Word,
-                                                Excel, Acces
-                                                en PowerPoint</li>
-                                            <li><a href="Hobby.html#3d">3D modelleren en animatie</a>
-                                                als hobby</li>
-                                            <li>Vlot in Engels, Duits, Nederlands, matig Frans</li>
-                                            <li>Rijbewijs B</li>
-                                        </ul>
+                                    <div class="col-md-8">
+                                        <div>
+                                            <div>
+                                                <h2 class="card-title">Snel Contact</h2>
+                                                <p class="card-text">Wil je snel contact met mijn opnemen? Klik op
+                                                    onderstaande incoontjes om mij te contacteren!
+                                                    Beschik je niet over één van de onderstaande kanalen? Gebruik dan
+                                                    het
+                                                    formulier!
+                                                </p>
+                                            </div>
+
+
+                                            <div class="row text-center mt-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
+                                                    <a href=""><i class="fa-solid fa-phone fa-2x"></i></a>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-6">
+                                                    <a href="">
+                                                        <i class="fa-regular fa-envelope fa-2x"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-6">
+                                                    <a href=""><i class="fa-brands fa-discord fa-2x"></i></a>
+                                                </div>
+                                                <div class="col-md-3 col-sm-6 col-6">
+                                                    <a href=""><i class="fa-solid fa-hippo fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="row text-center mt-3 ">
+                                                <div class="col-md-4 col-sm-6 col-6">
+                                                    <a href=""><i class="fa-brands fa-facebook fa-2x"></i></a>
+                                                </div>
+                                                <div class="col-md-4 col-sm-6 col-6">
+                                                    <a href="">
+                                                        <i class="fa-solid fa-paper-plane fa-2x"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="col-md-4 col-sm-6 col-6">
+                                                    <a href=""><i class="fa-solid fa-sleigh fa-2x"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="row">
+                    <div class="row mb-5">
                         <div class="col">
                             <p></p>
                         </div>
                         <div class="col-md-11">
                             <!-- contenttab2 -->
+                            <div class="container-fluid-md d-flex h-100 flex-column mt-5 md-5">
+                                <div class="row backgroundimg flex-fill d-flex justify-content-start">
+
+                                    <div class="col-md-12">
+                                        <h2 class="card-title">Contact-formulier</h2>
+                                        <form action="https://tm-statweb.be/forms.php" method="post" target="_blank">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label for="naam" class="form-label">Naam</label>
+                                                    <input type="text" class="form-control" id="naam" name="naam"
+                                                        placeholder="Type hier je naam" required>
+                                                    <div class="invalid-feedback">
+                                                        Geef je voornaam in
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="Achternaam" class="form-label">Naam</label>
+                                                    <input type="text" class="form-control" id="Achternaam"
+                                                        name="achternaam" placeholder="Type hier je achternaam"
+                                                        required>
+                                                    <div class="valid-feedback">
+                                                        Geef je achternaam in
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="mb-3 col-md-6">
+                                                    <label for="email" class="form-label">Email
+                                                        adres</label>
+                                                    <input type="email" class="form-control" id="email" name="e-mail"
+                                                        placeholder="Type hier je e-mail-adres" required>
+                                                    <div class="invalid-feedback">
+                                                        Geef een geldig e-mail-adres in
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="mb-3 col-md-6">
+                                                    <label for="Selectie" class="form-label">Onderwerp</label>
+                                                    <select class="form-select" aria-label="Selectie" name="onderwerp">
+                                                        <option selected value="contact">Contact</option>
+                                                        <option value="Kennis">Kennis</option>
+                                                        <option value="Jobaanbod">Jobaanbod</option>
+                                                        <option value="3-modellering">3-modellering</option>
+                                                        <option value="Geschiedenis">Geschiedenis</option>
+                                                        <option value="gamedesign">Gamedesign</option>
+                                                        <option value="Projecten">Projecten</option>
+                                                        <option value="Andere">Andere</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="mb-3 col-md-12">
+                                                    <label for="Vraag" class="form-label">Vraag</label>
+                                                    <textarea class="form-control" id="Vraag" name="Vraag" rows="6"
+                                                        placeholder="Type hier je vraag" required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-4">
+                                                    <button class="btn btn-primary" type="submit">Verzend</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-5 mt-5">
+                        <div class="col-md-11">
+                            <!-- contenttab1 -->
+                            <div class="container-fluid-md d-flex h-100 flex-column"
+                                style="background-image: url(/img/klaslokaal.jpg);">
+                                <div class="row backgroundimg flex-fill d-flex justify-content-start">
+                                    <div class="col-md-4">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <iframe class="frontimg"
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2493.3299321697627!2d4.9463329156285365!3d51.323451079605334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6b3d444a4518f%3A0x3e4f5b390724fd71!2sGrote%20Markt%2C%202300%20Turnhout!5e0!3m2!1sen!2sbe!4v1667777743600!5m2!1sen!2sbe"
+                                                width="600" height="450" style="border:0;" allowfullscreen=""
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div>
+                                            <h2 class="card-title">Contact Info</h2>
+                                            <p class="card-text">Naam: Joël Dierckx <br>
+                                                Telefoon:<a href="tel:0478012780">0478 01 27 80</a> <br>
+                                                Email:<a href="mailto:joeldierckx@gmail.com">joeldierckx@gmail.com</a>
+                                                <br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row bottom-bar">
+                        <div class="col-md-11">
+                            <!-- spacer-->
                             <p></p>
                         </div>
                     </div>
@@ -197,9 +306,9 @@
             </div>
     </main>
     <!-- main klein scherm -->
-    <main>
+    <!-- <main>
 
-    </main>
+    </main> -->
     <!-- footer -->
     <footer class="fixed-bottom">
         <div class="corners d-none d-md-block"> </div>
@@ -221,7 +330,8 @@
     </footer>
 
     <!-- java-script bootstrap -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+
 </body>
 
 </html>

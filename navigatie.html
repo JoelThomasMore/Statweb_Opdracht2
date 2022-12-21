@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joël Dierckx - Startpagina</title>
+    <title>Joël Dierckx - Navigatie</title>
     <!-- bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- eigen css -->
@@ -13,17 +13,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source%20Serif%20Pro">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" sizes="16x16">
     <meta name="author" content="Joël Dierckx">
-    <style>
-        body {
-            background-color: yellow;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            border-radius: 10px;
-            background: #fdfa82;
-            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
-        }
-    </style>
     <script src="https://kit.fontawesome.com/87eaf76a02.js" crossorigin="anonymous"></script>
 
 </head>
@@ -31,19 +20,22 @@
 <body>
     <!-- Top groot scherm -->
     <div class="topbar d-none d-md-block">
-
     </div>
+    <div class="topbar2 d-md-none">
+    </div>
+    <footer class="fixed-top d-none d-md-block">
+        <div class="corners d-none d-md-block"> </div>
+        </div>
+    </footer>
     <!-- menu groot scherm -->
     <nav class="offcanvas  offcanvas-start show d-none d-md-block" data-bs-scroll="true" data-bs-backdrop="false"
         tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div class="corners">
 
-        </div>
         <div class="menufix">
             <div class="text-center">
                 <img src="/img/favicon.ico" alt="Icoon">
                 <h3>Joël Dierckx</h3>
-                <h3>Menu</h3>
+                <h3>-Menu-</h3>
             </div>
             <ul class="nav flex-column align-content-center">
                 <li class="nav-item">
@@ -70,7 +62,7 @@
 
     </nav>
     <!-- menu klein scherm -->
-    <nav class="navbar navbar-expand-lg bg-light d-md-none">
+    <nav class="navbar fixed-top navbar-expand-lg bg-light d-md-none">
         <div class="container-fluid">
             <div>
                 <div class="container text-center ">
@@ -112,28 +104,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/navigatie.html">Navigatie</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li> -->
-                    <!-- </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
             </div>
         </div>
     </nav>
@@ -144,52 +114,37 @@
             <div class="spacer d-none d-md-block"></div>
             <div class="container text-start">
                 <div class="row">
-                    <div class="col text-start">
+                    <div class="col text-center">
                         <!-- tittle-->
-                        <h1>Startpagina</h1>
+                        <h1>Navigatie</h1>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-11">
-                        <!-- contenttab1 -->
-                        <div class="container-fluid-md d-flex h-100 flex-column"
-                            style="background-image: url(/img/HistorischDocument.jpg);">
-                            <div class="row backgroundimg flex-fill d-flex justify-content-start">
-                                <div class="col-md-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <img src="/img/foto.jpg" class="img-fluid rounded-start" alt="Responsive image">
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div>
-                                        <h2 class="card-title">Joël Dierckx</h2>
-                                        <ul class="card-text">
-                                            <li>28 jaar</li>
-                                            <li><a href="CV.html#Bachelor">Bachelor in de Geschiedenis</a></li>
-                                            <li><a href="Ervaring.html#office">Kennis van Windows Office</a>: Word,
-                                                Excel, Acces
-                                                en PowerPoint</li>
-                                            <li><a href="Hobby.html#3d">3D modelleren en animatie</a>
-                                                als hobby</li>
-                                            <li>Vlot in Engels, Duits, Nederlands, matig Frans</li>
-                                            <li>Rijbewijs B</li>
-                                        </ul>
+                    <div class="row mb-5">
+                        <div class="col-md-11">
+                            <!-- contenttab1 -->
+                            <div class="container-fluid-md d-flex h-100 flex-column">
+                                <div class="row backgroundimg flex-fill d-flex justify-content-start">
+                                    <div class="col-md-12 ml-3">
+                                        <div>
+                                            <h2 class="card-title">Pagina's op deze website</h2>
+                                            <ul>
+                                                <li><a class="card-text" href="/index.html">Startpagina</a></li>
+                                                <li><a class="card-text" href="/cv.html">CV</a></li>
+                                                <li><a class="card-text" href="/hobby.html">Hobby's</a></li>
+                                                <li><a class="card-text" href="/ervaring.html">Ervaring</a></li>
+                                                <li><a class="card-text" href="/contact.html">Contact</a></li>
+                                                <li><a class="card-text" href="/navigatie.html">Navigatie</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <p></p>
-                        </div>
+                    <div class="row bottom-bar">
                         <div class="col-md-11">
-                            <!-- contenttab2 -->
+                            <!-- spacer-->
                             <p></p>
                         </div>
                     </div>
@@ -197,9 +152,9 @@
             </div>
     </main>
     <!-- main klein scherm -->
-    <main>
+    <!-- <main>
 
-    </main>
+    </main> -->
     <!-- footer -->
     <footer class="fixed-bottom">
         <div class="corners d-none d-md-block"> </div>
